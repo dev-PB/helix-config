@@ -1,0 +1,15 @@
+[[language]]
+name = "rust"
+auto-format = true
+
+[language-server.rust-analyzer.config]
+check.command = "clippy"
+cargo.allFeatures = true
+
+[[language]]
+name = "markdown"
+file-types = ["md", "markdown"]
+language-servers = ["marksman"]
+soft-wrap.enable = true
+text-width = 90
+rulers = []
