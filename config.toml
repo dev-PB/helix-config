@@ -2,9 +2,20 @@ theme = "kanagawa"
 
 [keys.normal]
 "ret" = "goto_word"
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+
+[keys.normal.space]
+q = ":bc"
 
 [keys.select]
 "ret" = "extend_to_word"
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
 
 [keys.insert]
 C-backspace = "delete_word_backward"
@@ -14,6 +25,7 @@ end-of-line-diagnostics = "hint"
 cursorline = true
 rulers = [120]
 jump-label-alphabet = "jfkdls;aurieowpqnvmcxz"
+bufferline = "multiple"
 
 [editor.inline-diagnostics]
 cursor-line = "warning"
@@ -22,6 +34,5 @@ cursor-line = "warning"
 render = true
 character = "┆"
 
-[editor.lsp]
-display-messages = true
+# [editor.lsp]
 # display-inlay-hints = true
