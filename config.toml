@@ -1,5 +1,29 @@
 theme = "kanagawa"
 
+[editor]
+end-of-line-diagnostics = "hint"
+cursorline = true
+rulers = [120]
+jump-label-alphabet = "jfkdls;aurieowpqnvmcxz"
+bufferline = "multiple"
+completion-trigger-len = 1
+completion-timeout = 5
+
+[editor.cursor-shape]
+normal = "block"
+insert = "bar"
+select = "underline"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+
+[editor.indent-guides]
+render = true
+character = "┆"
+
+# [editor.lsp]
+# display-inlay-hints = true
+
 [keys.normal]
 "ret" = "goto_word"
 up = "no_op"
@@ -19,22 +43,3 @@ right = "no_op"
 
 [keys.insert]
 C-backspace = "delete_word_backward"
-
-[editor]
-end-of-line-diagnostics = "hint"
-cursorline = true
-rulers = [120]
-jump-label-alphabet = "jfkdls;aurieowpqnvmcxz"
-bufferline = "multiple"
-completion-trigger-len = 1
-completion-timeout = 5
-
-[editor.inline-diagnostics]
-cursor-line = "warning"
-
-[editor.indent-guides]
-render = true
-character = "┆"
-
-# [editor.lsp]
-# display-inlay-hints = true
