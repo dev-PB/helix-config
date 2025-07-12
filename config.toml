@@ -4,7 +4,6 @@ theme = "kanagawa"
 end-of-line-diagnostics = "hint"
 cursorline = true
 rulers = [120]
-jump-label-alphabet = "jfkdls;aurieowpqnvmcxz"
 bufferline = "multiple"
 completion-trigger-len = 1
 completion-timeout = 5
@@ -19,7 +18,7 @@ cursor-line = "warning"
 
 [editor.indent-guides]
 render = true
-character = "┆"
+character = "▏"
 
 # [editor.lsp]
 # display-inlay-hints = true
@@ -33,6 +32,8 @@ right = "no_op"
 
 [keys.normal.space]
 q = ":bc"
+Q.a = ":bca"
+Q.o = ":bco"
 
 [keys.select]
 "ret" = "extend_to_word"
