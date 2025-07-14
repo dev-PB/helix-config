@@ -20,6 +20,10 @@ cursor-line = "warning"
 render = true
 character = "▏"
 
+[editor.soft-wrap]
+enable = false
+wrap-at-text-width = true
+
 # [editor.lsp]
 # display-inlay-hints = true
 

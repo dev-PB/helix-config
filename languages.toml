@@ -21,4 +21,4 @@ file-types = ["md", "markdown"]
 language-servers = ["marksman"]
 soft-wrap.enable = true
 text-width = 90
-rulers = []
+rulers = [91]
