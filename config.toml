@@ -1,4 +1,4 @@
-theme = "kanagawa"
+theme = "dark_plus"
 
 [editor]
 end-of-line-diagnostics = "hint"
@@ -38,6 +38,7 @@ right = "no_op"
 q = ":bc"
 Q.a = ":bca"
 Q.o = ":bco"
+"u" = ":update"
 
 [keys.select]
 "ret" = "extend_to_word"
