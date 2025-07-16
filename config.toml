@@ -1,12 +1,13 @@
-theme = "dark_plus"
+theme = "kanagawa"
 
 [editor]
 end-of-line-diagnostics = "hint"
 cursorline = true
-rulers = [120]
-bufferline = "multiple"
+rulers = [100]
 completion-trigger-len = 1
 completion-timeout = 5
+trim-trailing-whitespace = true
+color-modes = true
 
 [editor.cursor-shape]
 normal = "block"
