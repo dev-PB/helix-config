@@ -1,12 +1,13 @@
-theme = "dark_plus"
+theme = "kanagawa"
 
 [editor]
 end-of-line-diagnostics = "hint"
 cursorline = true
-rulers = [120]
-bufferline = "multiple"
+rulers = [100]
 completion-trigger-len = 1
 completion-timeout = 5
+trim-trailing-whitespace = true
+color-modes = true
 
 [editor.cursor-shape]
 normal = "block"
@@ -33,6 +34,10 @@ up = "no_op"
 down = "no_op"
 left = "no_op"
 right = "no_op"
+"A-h" = "jump_view_left"
+"A-l" = "jump_view_right"
+"A-j" = "jump_view_down"
+"A-k" = "jump_view_up"
 
 [keys.normal.space]
 q = ":bc"

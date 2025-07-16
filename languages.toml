@@ -20,5 +20,9 @@ name = "markdown"
 file-types = ["md", "markdown"]
 language-servers = ["marksman"]
 soft-wrap.enable = true
-text-width = 90
-rulers = [91]
+text-width = 80
+rulers = []
+
+[[language]]
+name = "c-sharp"
+rulers = [100, 120]
