@@ -1,13 +1,12 @@
 theme = "kanagawa"
 
 [editor]
-end-of-line-diagnostics = "hint"
 cursorline = true
 rulers = [100]
+trim-trailing-whitespace = true
+end-of-line-diagnostics = "hint"
 completion-trigger-len = 1
 completion-timeout = 5
-trim-trailing-whitespace = true
-color-modes = true
 
 [editor.cursor-shape]
 normal = "block"
@@ -25,28 +24,18 @@ character = "▏"
 enable = false
 wrap-at-text-width = true
 
-# [editor.lsp]
-# display-inlay-hints = true
-
 [keys.normal]
 "ret" = "goto_word"
-up = "no_op"
-down = "no_op"
-left = "no_op"
-right = "no_op"
 
 [keys.normal.space]
 q = ":bc"
 Q.a = ":bca"
 Q.o = ":bco"
-"u" = ":update"
+u = ":update"
 
 [keys.select]
 "ret" = "extend_to_word"
-up = "no_op"
-down = "no_op"
-left = "no_op"
-right = "no_op"
 
 [keys.insert]
 C-backspace = "delete_word_backward"
+"C-[" = "normal_mode"
