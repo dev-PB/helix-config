@@ -1,0 +1,3 @@
+inherits = "kanagawa"
+
+"markup.list.checked" = { fg = "sakuraPink", modifiers = ["dim"] }
