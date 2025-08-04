@@ -1,7 +1,6 @@
-theme = "kanagawa_custom"
+theme = "dark_plus_custom"
 
 [editor]
-cursorline = true
 rulers = [100]
 trim-trailing-whitespace = true
 end-of-line-diagnostics = "hint"
@@ -18,11 +17,16 @@ cursor-line = "warning"
 
 [editor.indent-guides]
 render = true
-character = "▏"
+character = "┆"
 
 [editor.soft-wrap]
 enable = false
 wrap-at-text-width = true
+
+[editor.statusline.mode]
+normal = "NORMAL"
+insert = "INSERT"
+select = "SELECT"
 
 [keys.normal]
 "ret" = "goto_word"

@@ -1,3 +1,4 @@
 inherits = "kanagawa"
 
-"markup.list.checked" = { fg = "sakuraPink", modifiers = ["dim"] }
+"ui.gutter" = { bg = "sumiInk3" }
+"markup.list.checked" = { fg = "sakuraPink", modifiers = ["crossed_out"] }
