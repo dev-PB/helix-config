@@ -1,4 +1,4 @@
-theme = "dark_plus_custom"
+theme = "kanagawa_custom"
 
 [editor]
 rulers = [100]
@@ -6,6 +6,8 @@ trim-trailing-whitespace = true
 end-of-line-diagnostics = "hint"
 completion-trigger-len = 1
 completion-timeout = 5
+color-modes = true
+bufferline = "always"
 
 [editor.cursor-shape]
 normal = "block"
@@ -17,7 +19,7 @@ cursor-line = "warning"
 
 [editor.indent-guides]
 render = true
-character = "┆"
+# character = "┆"
 
 [editor.soft-wrap]
 enable = false
