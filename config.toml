@@ -6,6 +6,8 @@ trim-trailing-whitespace = true
 end-of-line-diagnostics = "hint"
 completion-trigger-len = 1
 completion-timeout = 5
+color-modes = true
+bufferline = "always"
 
 [editor.cursor-shape]
 normal = "block"
