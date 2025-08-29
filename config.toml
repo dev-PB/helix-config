@@ -1,4 +1,4 @@
-theme = "dark_plus_custom"
+theme = "tokyonight_custom"
 
 [editor]
 rulers = [100]
@@ -6,6 +6,8 @@ trim-trailing-whitespace = true
 end-of-line-diagnostics = "hint"
 completion-trigger-len = 1
 completion-timeout = 5
+color-modes = true
+bufferline = "always"
 
 [editor.cursor-shape]
 normal = "block"
@@ -22,11 +24,6 @@ character = "┆"
 [editor.soft-wrap]
 enable = false
 wrap-at-text-width = true
-
-[editor.statusline.mode]
-normal = "NORMAL"
-insert = "INSERT"
-select = "SELECT"
 
 [keys.normal]
 "ret" = "goto_word"
