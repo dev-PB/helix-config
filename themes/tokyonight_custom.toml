@@ -1,0 +1,8 @@
+inherits = "tokyonight"
+
+comment = { fg = "subtle", modifiers = []}
+"ui.linenr.selected" = { fg = "subtle" }
+function = { fg = "blue", modifiers = [] }
+
+[palette]
+subtle = "#8c98b3"
